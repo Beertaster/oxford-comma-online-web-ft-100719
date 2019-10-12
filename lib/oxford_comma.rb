@@ -1,7 +1,5 @@
 def oxford_comma(array)
-  new_string = ""
-  array.each do |word|
-    arr = 
-  end
-  
+  arr = []
+  array.each { |square| arr << "#{square}, " }
+  new_string = arr.join
 end
